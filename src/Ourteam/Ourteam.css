@@ -1,0 +1,75 @@
+/* #0f0e0e */
+/* #212c28 */
+/* font-family: "Dancing Script", cursive; */
+
+.our-team {
+    /* background-color: #0e0d0a; */
+    /* background-color: #222; */
+    background-color: #102B2A;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+.section-title {
+    color: goldenrod;
+    font-size: 36px;
+    margin: 2rem 0 1rem;
+    letter-spacing: 2px;
+}
+
+
+.team-description {
+    color: white;
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+.team-chef {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.our-team-chef {
+    background-color: #333;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.our-team-chef:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+
+.our-team-chef img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+
+.chef-name {
+    color: goldenrod;
+    font-size: 24px;
+    margin: 0.5rem 0;
+}
+
+
+.chef-role {
+    color: white;
+    font-size: 16px;
+}

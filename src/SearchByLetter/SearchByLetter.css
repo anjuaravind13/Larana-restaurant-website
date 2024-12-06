@@ -1,0 +1,138 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu-for-searchbyletter{
+    background-color: #102B2A;
+}
+
+
+.letters{
+    font-family: 'Arial', sans-serif;
+    color: white;
+    
+}
+
+.letters h2 a{
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+
+.searchList{
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.searchListDetails{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.searchListDetails img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+
+}
+
+.searchListDetails h3{
+    font-family: 'Arial', sans-serif;
+
+} */
+.menu-for-searchbyletter {
+    background-color: #102b2a;
+    padding: 20px;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+  }
+  
+  .letters h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .letters h2 {
+    margin: 20px 0;
+  }
+  
+  .letter-button {
+    background: none;
+    color: white;
+    font-size: 18px;
+    margin: 0 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, color 0.3s;
+  }
+  
+  .letter-button:hover {
+    background-color: #ffd700;
+    color: #102b2a;
+  }
+  
+  .letter-button.active {
+    background-color: #ffd700;
+    color: #102b2a;
+    font-weight: bold;
+  }
+  
+  .searchList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .searchListDetails {
+    background-color: #1f3d3b;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .searchListDetails:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .searchListDetails img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .searchListDetails h3 {
+    font-size: 18px;
+    color: #ffd700;
+    margin-bottom: 10px;
+  }
+  
+  .searchListDetails h5,
+  .searchListDetails p {
+    font-size: 14px;
+    color: #b0e0e6;
+    margin: 5px 0;
+  }
+  
+  .no-results {
+    color: #ff6666;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  

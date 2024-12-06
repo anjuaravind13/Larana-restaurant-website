@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+
+.navBar {
+    /* border: 1px solid black; */
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.menu {
+    /* border: 1px solid black; */
+    flex: 2;
+    padding-right: 800px;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+
+}
+
+.list li {
+    float: left;
+    /* padding: 20px; */
+
+}
+
+
+.list>li>a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.list li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #102B2A;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #102B2A;
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    /* border: 1px solid black; */
+    padding: 30px 30px;
+    text-decoration: none;
+    display: inline-block;
+    /* display: flex;
+    flex-direction: row; */
+    text-align: left;
+    color: #e0a650
+}
+
+.dropdown-content a:hover {
+    background-color: #bd0b0b;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a img {
+
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    /* border: 1px solid black; */
+    display: block;
+    margin: 20px auto;
+    /* border-radius: 10px; */
+}
+
+.navBar-button{
+
+    text-align:end;
+    /* border: 1px solid black; */
+    padding-left: 120px;
+}
+
+.count-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    overflow: hidden;
+  }
+  
+  .button-icon {
+    background-image: url("images/cart-heart.svg");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+  }
+  
+  .button-count {
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 50%;
+    position: absolute;
+    /* top: -10px;
+    right: -10px; */
+  }
+  
+
+/* 
+.navBar-button>button {
+    color: black;
+    border: 1px solid;
+    width: 100px;
+    height: 60px;
+    background-color: white;
+    background-image: url("images/cart-heart.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 30px;
+    cursor: pointer;
+   
+} */
+
