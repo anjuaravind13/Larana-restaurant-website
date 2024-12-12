@@ -17,7 +17,7 @@
 .top-section {
   
   margin: 0px 20px;
-  background-image: url(images/top-section.png);
+  background-image: url(/top-section.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

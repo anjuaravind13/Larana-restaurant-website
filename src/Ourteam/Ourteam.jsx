@@ -42,7 +42,7 @@ function Ourteam() {
       </p>
       <div className="team-chef">
         <div className="our-team-chef">
-          <img src="./images/chef1a.jpg" alt="" />
+          <img src="./chef1a.jpg" alt="" />
           <h2
             className="chef-name"
             style={{
@@ -61,7 +61,7 @@ function Ourteam() {
           </p>
         </div>
         <div className="our-team-chef">
-          <img src="./images/chef2a.jpg" alt="" />
+          <img src="./chef2a.jpg" alt="" />
           <h2
             className="chef-name"
             style={{
@@ -80,7 +80,7 @@ function Ourteam() {
           </p>
         </div>
         <div className="our-team-chef">
-          <img src="./images/chef3.jpg" alt="" />
+          <img src="./chef3.jpg" alt="" />
           <h2
             className="chef-name"
             style={{
@@ -99,7 +99,7 @@ function Ourteam() {
           </p>
         </div>
         <div className="our-team-chef">
-          <img src="./images/chef4.jpg" alt="" />
+          <img src="./chef4.jpg" alt="" />
           <h2
             className="chef-name"
             style={{

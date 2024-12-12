@@ -23,20 +23,20 @@ function Nav() {
             <div className="dropdown-content">
               <a href="#list-all-mealbycategories">
                 {" "}
-                <img src="./images/dd-menu-img1.jpg" alt="Menu Vertical" />
+                <img src="./dd-menu-img1.jpg" alt="Menu Vertical" />
                 List all meal categories
               </a>
               <a href="#">
-                <img src="./images/dd-menu-img3.jpg" alt="" />
+                <img src="./dd-menu-img3.jpg" alt="" />
                 Menu By Area
               </a>
               <a href="#">
-                <img src="./images/big-mac.jpg" alt="" />
+                <img src="./big-mac.jpg" alt="" />
                 List By Ingredients
               
               </a>
               <a href="#" onClick={() => navigate("/searchbyletter")}>
-                <img src="./images/Strawberries-Romanoff.jpg" alt="" />
+                <img src="./Strawberries-Romanoff.jpg" alt="" />
                 List all meals by first letter
                 {/* <img src="https://fidalgo.qodeinteractive.com/wp-content/uploads/2024/03/dd-menu-img4.jpg" alt="" /> */}
               </a>

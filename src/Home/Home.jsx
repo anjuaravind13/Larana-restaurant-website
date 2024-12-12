@@ -60,7 +60,7 @@ function Home() {
       </div>
       <br />
       <div className="concept-vision">
-        <img src="./images/concept&vision.png" alt="" />
+        <img src="./concept&vision.png" alt="" />
       </div>
       <br />
 
