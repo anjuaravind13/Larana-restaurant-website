@@ -104,7 +104,7 @@ function Home() {
         <h1 className="bestseller-seller-of-the-week-h1">
           BEST SELLER IN THIS WEEK
         </h1>
-        <img src="./images/best-seller-of-the-week.png" alt="" />
+        <img src="./best-seller-of-the-week.png" alt="" />
       </div>
       <div className="meet-our-team-btn">
         <button onClick={pageOurTeam}>Meet Our Team</button>
