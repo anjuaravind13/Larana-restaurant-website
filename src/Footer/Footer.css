@@ -1,5 +1,5 @@
 .footer-top-area {
-
+    background-color: #102B2A;
     color: white;
     font-family: "Jost", sans-serif;
     display: flex;
@@ -43,11 +43,12 @@
 
 .footer-bottom-area {
     font-family: "Jost", sans-serif;
+    background-color: #102B2A;
 }
 
 .footer-section-1 {
     border-bottom: 1px solid white;
-    
+
 
 }
 
@@ -70,11 +71,12 @@
     padding: 50px;
     text-decoration: none;
     color: white;
-    
-    
+
+
 }
 
-.material-icons-1,.material-icons-2{
+.material-icons-1,
+.material-icons-2 {
     /* border: 1px solid; */
     width: 20px;
     height: 20px;

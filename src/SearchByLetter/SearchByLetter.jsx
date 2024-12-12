@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import "./SearchByLetter.css";
+import { button, div } from "framer-motion/client";
 
 function SearchByLetter() {
   const [data, setData] = useState([]);
@@ -118,6 +119,18 @@ export default SearchByLetter;
 //           /<a href="">Z</a>
 //         </h2>
 //       </div>
+
+
+{/* <div>
+  {
+    alpha.map((l)=>{
+
+      return(
+        <button onClick={()=>{changeLetter(l)}}>{l}</button>
+      )
+    })
+  }
+</div> */}
 
 //       <div className="searchList">
 //         {data.map((obj, index) => {

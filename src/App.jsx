@@ -8,23 +8,24 @@ import Nav from "./Nav/Nav";
 import Cart from "./Cart/Cart";
 import Ourteam from "./Ourteam/Ourteam";
 import SearchByLetter from "./SearchByLetter/SearchByLetter";
+import Footer from "./Footer/Footer";
 
+import './App.css'
 
 function App() {
   return (
     <div>
       <Provider store={reduxStore}>
         <BrowserRouter>
-    
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/mealDetails" element={<MealDetails />} />
-            <Route path="/cart" element={<Cart/>}/>
-            <Route path="/ourteam" element={<Ourteam/>}/>
-            <Route path="/searchbyletter" element={<SearchByLetter/>}/>
-
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/ourteam" element={<Ourteam />} />
+            <Route path="/searchbyletter" element={<SearchByLetter />} />
           </Routes>
         </BrowserRouter>
+        <Footer />
       </Provider>
     </div>
   );
