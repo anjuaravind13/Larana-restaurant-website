@@ -10,13 +10,15 @@ import Ourteam from "./Ourteam/Ourteam";
 import SearchByLetter from "./SearchByLetter/SearchByLetter";
 import Footer from "./Footer/Footer";
 
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
     <div>
       <Provider store={reduxStore}>
+        {/* <div className="top-section"> */}
         <BrowserRouter>
+          <Nav />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/mealDetails" element={<MealDetails />} />
@@ -25,6 +27,7 @@ function App() {
             <Route path="/searchbyletter" element={<SearchByLetter />} />
           </Routes>
         </BrowserRouter>
+        {/* </div> */}
         <Footer />
       </Provider>
     </div>

@@ -15,7 +15,7 @@ function Footer() {
         <div className="footer-top-area-col-2">
           <h5>ADDRESS</h5>
           <p>
-            "1224, East Hill"
+            "1224, East Hill Kozhikode"
             <br />
             "673005"
           </p>
@@ -33,7 +33,7 @@ function Footer() {
       <div className="footer-bottom-area">
 
         <div className="footer-section-1">
-          <img src="./images/logo-larana.png" alt="" />
+          <img src="./logo-larana.png" alt="" />
         </div>
 
         <div className="footer-section-2">

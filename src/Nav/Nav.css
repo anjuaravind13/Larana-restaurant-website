@@ -7,9 +7,15 @@
 
 .navBar {
     /* border: 1px solid black; */
-    margin-top: 60px;
+    padding: 20px;
     display: flex;
     justify-content: space-evenly;
+
+    position: sticky;
+    top: 0px;
+
+    background-color: #102B2A;
+    
 
 }
 
@@ -96,9 +102,9 @@
     /* border-radius: 10px; */
 }
 
-.navBar-button{
+.navBar-button {
 
-    text-align:end;
+    text-align: end;
     /* border: 1px solid black; */
     padding-left: 120px;
 }
@@ -118,9 +124,9 @@
     font-weight: bold;
     color: black;
     overflow: hidden;
-  }
-  
-  .button-icon {
+}
+
+.button-icon {
     background-image: url("/cart-heart.svg");
     background-size: 30px 30px;
     background-repeat: no-repeat;
@@ -128,9 +134,9 @@
     width: 30px;
     height: 30px;
     margin-left: 50px;
-  }
-  
-  .button-count {
+}
+
+.button-count {
     background-color: red;
     color: white;
     font-size: 14px;
@@ -140,8 +146,8 @@
     position: absolute;
     /* top: -10px;
     right: -10px; */
-  }
-  
+}
+
 
 /* 
 .navBar-button>button {
@@ -157,4 +163,3 @@
     cursor: pointer;
    
 } */
-

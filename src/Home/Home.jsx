@@ -44,74 +44,76 @@ function Home() {
   //   dispatch(increase(item));
   // };
 
-  const handleAddToCart = (item) => {
-    dispatch(increase(item));
-  };
+  // const handleAddToCart = (item) => {
+  //   dispatch(increase(item));
+  // };
 
   function pageOurTeam() {
     navigate("/ourteam");
   }
 
   return (
-    <div className="home">
-      <div className="top-section">
-        <Nav />
-        {/* <img src="./images/top-section.jpg" alt="" /> */}
-      </div>
-      <br />
-      <div className="concept-vision">
-        <img src="./concept&vision.png" alt="" />
-      </div>
-      <br />
+    <>
+ 
+      <div className="home">
+        <div className="top-section">
+          {/* <Nav /> */}
+          {/* <img src="./images/top-section.jpg" alt="" /> */}
+        </div>
+        <br />
+        <div className="concept-vision">
+          <img src="./concept&vision.png" alt="" />
+        </div>
+        <br />
+        <div className="ctn" id="list-all-mealbycategories">
+          <div className="meals-db">
+            <div className="top">
+              {/* <h1>Whats your favourite meal?</h1> */}
+              <h1>List all meal categories</h1>
+            </div>
+            <div className="meal-container">
+              {categories.map((obj) => {
+                return (
+                  <div
+                    key={obj?.idCategory}
+                    className="meal-card"
+                    onClick={() => {
+                      handleCardClick(obj);
+                    }}
+                  >
+                    <img
+                      src={obj?.strCategoryThumb}
+                      alt="Meal-image"
+                      className="meal-img"
+                    />
+                    <h2>{obj?.strCategory}</h2>
+                    {/* <p>{obj?.strCategoryDescription}</p> */}
 
-      <div className="ctn" id="list-all-mealbycategories">
-        <div className="meals-db">
-          <div className="top">
-            <h1>Whats your favourite meal?</h1>
-          </div>
-          <div className="meal-container">
-            {categories.map((obj) => {
-              return (
-                <div
-                  key={obj?.idCategory}
-                  className="meal-card"
-                  onClick={() => {
-                    handleCardClick(obj);
-                  }}
-                >
-                  <img
-                    src={obj?.strCategoryThumb}
-                    alt="Meal-image"
-                    className="meal-img"
-                  />
-                  <h2>{obj?.strCategory}</h2>
-                  <p>{obj?.strCategoryDescription}</p>
-
-                  <button
+                    {/* <button
                     onClick={() => handleAddToCart(obj)}
                     className="add-to-cart-btn"
                   >
                     add to cart
-                  </button>
-                </div>
-              );
-            })}
+                  </button> */}
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
-      </div>
-      <br />
-      <div className="bestseller-seller-of-the-week">
-        <h1 className="bestseller-seller-of-the-week-h1">
-          BEST SELLER IN THIS WEEK
-        </h1>
-        <img src="./best-seller-of-the-week.png" alt="" />
-      </div>
-      <div className="meet-our-team-btn">
-        <button onClick={pageOurTeam}>Meet Our Team</button>
-      </div>
-      <br />
-      <div>
-        {/* <footer>
+        <br />
+        <div className="bestseller-seller-of-the-week">
+          <h1 className="bestseller-seller-of-the-week-h1">
+            BEST SELLER IN THIS WEEK
+          </h1>
+          <img src="./best-seller-of-the-week.png" alt="" />
+        </div>
+        <div className="meet-our-team-btn">
+          <button onClick={pageOurTeam}>Meet Our Team</button>
+        </div>
+        <br />
+        <div>
+          {/* <footer>
           <div className="footer-top-area">
             <div className="footer-top-area-col-1">
               <h5>CONTACT US</h5>
@@ -126,9 +128,11 @@ function Home() {
           </div>
           <div className="footer-bottom-area"></div>
         </footer> */}
+        </div>
+        <br />
+    
       </div>
-      <br />
-    </div>
+    </>
   );
 }
 
