@@ -11,6 +11,10 @@ import SearchByLetter from "./SearchByLetter/SearchByLetter";
 import Footer from "./Footer/Footer";
 
 import "./App.css";
+import Category from "./Category/Category";
+import Area from "./Area/Area";
+import Ingredient from "./Ingredient/SearchMeal";
+import SearchMeal from "./Ingredient/SearchMeal";
 
 function App() {
   return (
@@ -25,6 +29,9 @@ function App() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/ourteam" element={<Ourteam />} />
             <Route path="/searchbyletter" element={<SearchByLetter />} />
+            <Route path="/category" element={<Category/>} />
+            <Route path="/area" element={<Area/>}/>
+            <Route path="/searchmeal" element={<SearchMeal/>}/>
           </Routes>
         </BrowserRouter>
         {/* </div> */}

@@ -35,6 +35,8 @@ function Home() {
       });
   }, []);
 
+  
+
   function handleCardClick(obj) {
     dispatch(setMealDetails(obj));
     navigate("/mealDetails");
